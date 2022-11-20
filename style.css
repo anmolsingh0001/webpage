@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #eff7fa;
+}
+
+#nav1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#nav2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #019aab;
+    margin-top: 1%;
+}
+
+#nav3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 1%;
+}
+
+#backimg{
+    height: 52vh;
+    width: 76vw;
+    background-image: url(https://cdn.shopclues.com/images/banners/2022/Nov/19/HB3_Web_Esha_19Nov22.jpg);
+    background-repeat: no-repeaat;
+    background-size: 70vw 50vh;
+    margin-left: 2%;
+    display: flex;
+    margin-top: 1%;
+}
+
+#deal{
+    margin-left: 2%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#deal1{
+    left: 2%;
+    position: absolute;
+    margin-top: 1%;
+}
+
+.first{
+    right: 0%;
+    position: absolute;
+    width: 20%;
+    height: 52%;
+}
+
+.location{
+    display: flex;
+}
+
+input{
+    width: 40vw;
+    height: 2vw;
+}
+button{
+    height: 2vw;
+    color: white;
+    background-color: rgb(255 110 110);
+    font-weight: 100;
+    border-radius: 3px;
+
+}
